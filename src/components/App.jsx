@@ -26,7 +26,7 @@ export const App = () => {
         <StatisticsList stats={data}></StatisticsList>
       </Statistics>
       <FriendList friends={friends}></FriendList>
-      <TransactionHistory items={transactions} />;
+      <TransactionHistory items={transactions} />
     </>
   );
 };
